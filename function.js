@@ -35,7 +35,7 @@ console.log(sum(2, 2));
 // and returns the average of those 3 numbers.
 function avg (a, b, c) {
   var nums = a+b+c;
-  return nums/3;
+  return nums/arguments.length;
 }
 console.log(avg(1,2,3));
 
